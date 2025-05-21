@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.photo{
+  height: 100px;
+  width: 100px;
+ border-radius: 50%;
+}
+.user{
+  background-color: aqua;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  /* background-color: black; */
+  /* color: white; */
+}

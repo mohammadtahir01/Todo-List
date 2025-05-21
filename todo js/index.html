@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <div id="data">
+        <input type="text" id="text1">
+        <input type="text" id="text2">
+        <input type="number" id="text3">
+        <input type="submit" value="Add" onclick=" return  send()" style="padding: 3px 16px;
+    font-size: 1rem;">
+        </div>
+    </form>
+
+    <div style="display:flex; justify-content: center;align-items: center; margin-top: 10%;">
+    <table border="1" cellpadding="15px" cellspacing="10px">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Year</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody id="show"></tbody>
+    </table>
+    </div>
+
+
+    <script src="first.js"></script>
+</body>
+</html>
