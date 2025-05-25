@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+</head>
+
+<body>
+    <header>
+        <h1>lorem ipsum generator</h1>
+    </header>
+    <main>
+        <div class="first_para_continer">
+            <label for="paragraphs">paragraphs</label>
+            <input type="range" name="" id="paragraphs" min="1" max="1000" value="1">
+        </div>
+        <div class="word_per_para_continer">
+            <label for="word_per_para"> word_per_para</label>
+            <input type="range" name="" id="word_per_para" min="1" max="50" value="1">
+        </div>
+        <div class="tage_continer">
+            <label for="tage">tage</label>
+            <select name="" id="tage">
+            </select>
+        </div>
+        <div class="include_continer">
+            <label for="include">include HTML</label>
+            <select name="" id="include">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+                <option value="clear">clear</option>
+            </select>
+        </div>
+
+        <button id="generate">generate</button>
+        <div class="output">
+
+        </div>
+    </main>
+    <script src="sec2.js"></script>
+</body>
+
+</html>
