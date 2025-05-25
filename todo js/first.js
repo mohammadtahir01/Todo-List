@@ -17,10 +17,13 @@ let send=()=>{
 
     document.querySelector("#text1").value="";
     document.querySelector("#text2").value="";
-    document.querySelector("#text3").value="";
+    document.querySelector("#text3").value=""
+
+    return false;
 
 }
 
 let del=(element)=>{
   element.parentElement.remove();  
+
 }
