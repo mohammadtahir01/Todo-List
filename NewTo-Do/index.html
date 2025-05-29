@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="main">
+      <div>
+        <h1>New To-Do</h1>
+      </div>
+
+      <div id="sec">
+        <div>
+          <p>Add Name</p>
+        </div>
+        <div id="inp">
+          <input type="text" placeholder="Name" id="name" />
+          <input type="text" placeholder="Categary" id="Categary" />
+          <input type="date" id="date"/>
+          <button id="btn">Add Task</button>
+        </div>
+      </div>
+
+       <div id="search1">
+        <div>
+            <p>Search for item...</p>
+        </div>
+        <div>
+            <input type="text" placeholder="Search Course iteam" id="searchData" onkeyup="search()"/>
+        </div>
+    </div>
+
+    <div id="table">
+    <table border="1">
+        <thead>
+        <tr>
+            <th>SN</th>
+            <th>Name</th>
+            <th>Categary</th>
+            <th>Year</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody id="tbody"> </tbody> 
+    </table>
+    </div>
+    
+
+    </div>
+
+   
+
+    
+
+    <script src="sec.js"></script>
+  </body>
+</html>

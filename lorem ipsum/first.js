@@ -86,39 +86,39 @@ function generateLoremIpsum() {
 }
 
 // Function to generate Lorem Ipsum text
-// function generateText(
-//     paragraphs,
-//     tag,
-//     includeHtml,
-//     wordsPerParagraph
-// ) 
-// {
+function generateText(
+    paragraphs,
+    tag,
+    includeHtml,
+    wordsPerParagraph
+) 
+{
     
-//     //  Use a placeholder text as an 
-//     //  Example for illustrating.
-//     const placeholderText =
-//         `Lorem ipsum dolor sit amet 
-//         consectetur adipiscing elit sed 
-//         do eiusmod tempor incididunt ut
-//         labore et dolore magna aliqua.`;
+    //  Use a placeholder text as an 
+    //  Example for illustrating.
+    const placeholderText =
+        `Lorem ipsum dolor sit amet 
+        consectetur adipiscing elit sed 
+        do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.`;
 
-//     // Create an array of paragraphs
-//     const loremIpsumArray = new Array(
-//         paragraphs
-//     ).fill("");
+    // Create an array of paragraphs
+    const loremIpsumArray = new Array(
+        paragraphs
+    ).fill("");
 
     // Generate words for each paragraph
 
-    // for (let i = 0; i<paragraphs;i++) {
-    //     const words = generateWords(
-    //         wordsPerParagraph
-    //     );
-    //     loremIpsumArray[i] = includeHtml === "Yes" ? `<${tag}>${words}</${tag}>`: words;
-    // }
+    for (let i = 0; i<paragraphs;i++) {
+        const words = generateWords(
+            wordsPerParagraph
+        );
+        loremIpsumArray[i] = includeHtml === "Yes" ? `<${tag}>${words}</${tag}>`: words;
+    }
 
     // Join paragraphs into a single string
-    // return loremIpsumArray.join("\n");
-// }
+    return loremIpsumArray.join("\n");
+}
 
 // Function to generate a specified number of words
 function generateWords(numWords) {

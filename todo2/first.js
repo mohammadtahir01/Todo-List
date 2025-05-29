@@ -31,9 +31,9 @@ const click12=()=>{
    btn1.innerHTML="Edit";
 
    btn1.addEventListener('click',()=>{
-inp=td2.innerHTML;
-inp2=td3.innerHTML;
-tr1.innerHTML="";
+   inp=td2.innerHTML;
+   inp2=td3.innerHTML;
+   tr1.innerHTML="";
 
 
    })

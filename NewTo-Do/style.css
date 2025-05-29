@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#sec{
+    background-color: green;
+    padding:1rem; 
+    border-radius:10px;
+}
+#sec p{
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    position: relative;
+    left: 26%;
+    top: 4rem;
+}
+#inp input{
+    outline: none;
+    font-size: 1rem;
+    padding: 5px;
+}
+#inp button{
+    font-size: 1rem;
+    padding: 5px;
+}
+
+#search1{
+    font-size: 1rem;
+    padding: 5px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#search1 input{
+    width: 100%;
+    outline: none;
+    padding: 5px 0px 5px 5px;
+    font-size: 1rem;
+}
+#table{
+   width: 100%;
+}
+#table table{
+    width: 100%;
+}
