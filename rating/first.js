@@ -22,8 +22,8 @@ function set(idx) {
     }
 }
 
-star1.forEach((star, idx) => {
-    star.addEventListener('click', () => set(idx));
+star1.forEach((star, i) => {
+    star.addEventListener('click', () => set(i));
 });
 
 // star1.addEventListener('click', () => {
