@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="container">
+        <div>
+        <h1>Password Generate</h1>
+        </div>
+
+        <div>
+            <input type="text" id="password" placeholder="Generated Password">
+            <button id="Copy1">Copy</button>
+        </div>
+        <div>
+            <input type="range" id="length" min="1" max="20">
+            <span id="lengthValue">1</span>
+        </div>
+        <div id="checkboxes">
+            <div>
+            <input type="checkbox" id="uppercase">
+            <label for="uppercase">A-Z</label>
+            <input type="checkbox" id="lowercase">
+            <label for="lowercase">a-z</label>
+            </div>
+            <div>
+            <input type="checkbox" id="numbers">
+            <label for="numbers">09</label>
+            <input type="checkbox" id="symbols">
+            <label for="symbols">!@#$%^&*</label>
+            </div>
+        </div>
+        <div>
+            <button id="generate1">Generate</button>
+        </div>
+
+       </div> 
 
     <script src="first.js"></script>
 </body>

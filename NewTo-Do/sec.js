@@ -85,6 +85,9 @@ searchInp.addEventListener('keyup',()=>{
     });
 });
 
+
+// this is for sorting part
+
 let sortBtn = document.querySelector("#sortByName");
 let nameSortAsc = true; 
 
