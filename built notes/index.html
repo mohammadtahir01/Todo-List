@@ -5,44 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    body{
-        font-family: Arial, sans-serif;
-        background-color:aqua;
-    }
-    #container h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #note button{
-        background-color: black;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        margin-left: 2rem;
-    }
-</style>
+
 <body>
     
     <div id="container">
         <h1>Create Notes</h1>
         <div>
             <div id="note">
-                <!-- <label for="note">Note:</label> -->
-                <!-- <textarea id="note" rows="4" cols="50"></textarea> -->
-                 <button><i class="fa-solid fa-plus"></i> Note</button>
+                 <button id="btn"><i class="fa-solid fa-plus"></i> Note</button>
             </div>
         </div>
+        <div id="notes">
+            <!-- Notes will be displayed here -->
     </div>
 
     <script src="first.js"></script>
