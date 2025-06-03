@@ -57,7 +57,7 @@ function edit(id){
     inp1.value = obj.inp1;
     inp2.value = obj.inp2;
     inp3.value = obj.inp3;
-    arr.splice(id, 1); 
+    arr.splice(id, 1); //delete Table
  display();
 }
 

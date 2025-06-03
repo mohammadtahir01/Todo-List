@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <main>
+        <div id="main1">
+            <h1>Expense Traker</h1>
+            <div>
+               
+                <input type="text" placeholder="Enter Name" id="Name">
+                <input type="text" placeholder="Amount" id="amount">
+                <select id="slect1">
+                    <option value="trasport">Transport</option>
+                    <option value="food">Food</option>
+                    <option value="grocery">Grocery</option>
+                    <option value="shoping">Shoping</option>
+                </select>
+                <input type="date" id="Date">
+                <button id="btn">Add Expense</button>
+            </div>
+
+            <table border="1" cellpadding="10px" cellspacing="10px">
+                <thead>
+                    <tr>
+                        <th>Expense Name</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="show"></tbody>
+            </table>
+
+            <div id="footer">
+                <p>Total:<span id="show2"></span></p>
+                <div>
+                    Filter by Category: <select >
+                        <option value="all">ALL</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+     </main>
+    <script src="first.js"></script>
+</body>
+</html>
