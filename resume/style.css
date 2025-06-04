@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(rgb(30, 30, 30), rgb(80, 80, 80));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    top: 2rem;
+    padding: 1.5rem;
+    background: rgb(240, 240, 240);
+}
+#h1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+#area2{
+    display: flex;
+    flex-direction: column; 
+}
+#area{
+    display: flex;
+    flex-direction: column;
+}
+#area2 input{
+    font-size: 1.2rem;
+    padding: 8px 0px 8px 10px;
+}
+#area input{
+    font-size: 1.2rem;
+    padding: 8px 0px 8px 10px;
+}
+#area textarea{
+    font-size: 1.2rem;
+    padding: 8px 0px 8px 10px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 3rem;
+}
+#btn button{
+    padding: 8px 8px 8px 8px;
+    border: none;
+    background-color: darkseagreen;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: white;
+
+}
+#output{
+    width: 100%;
+}
+.name1{
+   background-color: black;
+   color: white;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainBox{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 15rem;
+    height: 400px;
+}
+.left{
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+}
+
+
+
+
+
+
+
