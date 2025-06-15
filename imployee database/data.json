@@ -1,0 +1,52 @@
+{
+  "student": [
+    {
+      "Name": "Tahir",
+      "Contact": "1234567",
+      "Age": 21,
+      "Dob": "10/09/2003",
+      "Address": "Roh",
+      "id": "c4cc"
+    },
+    {
+      "Name": "Rahul",
+      "Contact": "1234567987",
+      "Age": 24,
+      "Dob": "12/03/2004",
+      "Address": "Nawadah",
+      "id": "8b15"
+    },
+    {
+      "id": "5473",
+      "Name": "tahir ",
+      "Contact": "",
+      "Age": "",
+      "Date": "",
+      "Address": ""
+    },
+    {
+      "id": "a15e",
+      "Name": "tahir ",
+      "Contact": "6201322486",
+      "Age": "2003",
+      "Date": "2025-06-17",
+      "Address": ""
+    },
+    {
+      "id": "0499",
+      "Name": "Md Tahir",
+      "Contact": "6201322486",
+      "Age": "",
+      "Date": "",
+      "Address": ""
+    },
+    {
+      "id": "dfe0",
+      "Name": "Md Tahir husaain",
+      "Contact": "6201322486",
+      "Age": "",
+      "Date": "",
+      "Address": ""
+    }
+  ]
+}
